@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글자 숨기기, 보이기</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="show">안녕하세요.jquery-3버전입니다.</div>
+    <button id="showText">글자 숨기기</button>
+    <button id="hideText">글자 보이기</button>
+    <script>
+        $(document).ready(function() {
+            $("#showText").click(function() {
+                $("#show").hide();
+            })
+            $("#hideText").click(function() {
+                $("#show").show();
+            })
+        })
+    </script>
+</body>
+</html>
