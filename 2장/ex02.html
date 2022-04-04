@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함수-2</title>
+</head>
+<body>
+    <script>
+        // 매개변수 x
+        function hello() {
+            document.write("반가워요.<br/>");
+        }
+        hello();
+        
+        // 매개변수와 리턴값 존재
+        function add(a, b) {
+            let result1 = a + b;
+            return result1;
+        }
+        let value1 = add(2,3);
+        alert("두 수의 합 : " + value1);
+
+        function mul(c, d) {
+            let result2 = c * d;
+            return result2;
+        }
+        let value2 = mul(2,3);
+        alert("두 수의 곱 : " + value2);
+    </script>
+</body>
+</html>
